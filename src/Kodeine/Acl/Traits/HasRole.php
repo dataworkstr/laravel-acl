@@ -216,7 +216,7 @@ trait HasRole
             $role = $role->getKey();
         }
 
-        return (int) $role;
+        return $role;
     }
 
     /*
