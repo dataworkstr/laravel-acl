@@ -55,5 +55,5 @@ class AclServiceProvider extends ServiceProvider
             __DIR__ . '/../../migrations/' => base_path('/database/migrations'),
         ], 'migrations');
     }
-    
+
 }
